@@ -11,7 +11,7 @@ export default defineConfig({
     VueDevTools(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'masked-icon.svg'],
+      includeAssets: [ 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
         name: 'DevWeb-AutoGarage',
         short_name: 'DevWeb',
